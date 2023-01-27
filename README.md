@@ -13,14 +13,14 @@ Masalah yang diidentifikasi dari latar belakang tersebut adalah kesulitan dalam 
 ### Problem Statements
 
 Menjelaskan pernyataan masalah:
-- Berapa nilai RMSE yang mampu dihasilkan oleh model klasifikasi?
-- Berapa nilai *loss* yang mampu dihasilkan oleh model klasifikasi?
+- Berapa nilai RMSE yang mampu dihasilkan oleh model rekomendasi?
+- Berapa nilai *loss* yang mampu dihasilkan oleh model rekomendasi?
 
 ### Goals
 
 Menjelaskan tujuan proyek yang menjawab pernyataan masalah:
-- Mendapatkan nilai RMSE dari model klasifikasi.
-- Mendapatkan nilai *loss* dari model klasifikasi.
+- Mendapatkan nilai RMSE dari model rekomendasi.
+- Mendapatkan nilai *loss* dari model rekomendasi.
 
 ### Solution statements
 Secara keseluruhan, masalah yang akan diselesaikan dalam project ini adalah menciptakan sebuah sistem rekomendasi anime yang dapat memberikan rekomendasi anime yang sesuai dengan preferensi pengguna dengan menggunakan metode machine learning Neural Collaborative Filter (NCF) dan Multi Layer Perceptron (MLP). Dalam project ini, data yang akan digunakan adalah data rating anime yang diberikan oleh pengguna. Data ini akan digunakan untuk melakukan analisis dan menentukan pola preferensi pengguna. Metode NCF akan digunakan untuk menentukan korelasi antara pengguna dan anime yang mereka rating, serta menentukan rekomendasi anime yang sesuai dengan preferensi pengguna. Sedangkan metode MLP akan digunakan untuk melakukan analisis data dan memberikan rekomendasi anime yang sesuai dengan preferensi pengguna.
