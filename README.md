@@ -120,14 +120,6 @@ Model machine learning yang digunakan dalam proyek ini adalah *Neural Collaborat
 
 Jumlah total parameter yang dapat dilatih pada model ini adalah 2,187,132.
 
-
-## Evaluation
-
-Model tersebut berperforma baik dan *loss* serta *root mean squared error*-nya menurun pada setiap 'epoch'. *Loss* validasi dan *root mean squared error* juga menurun, yang menunjukkan bahwa model tidak mengalami *overfitting*. Model mampu mencapai *root mean squared error* validasi sekitar 0,1374 setelah 17-18 'epoch'. Hasil tersebut termasuk ke dalam kondisi yang baik untuk model sistem rekomendasi. Waktu pelatihan untuk setiap 'epoch' sekitar 40 detik, yang merupakan waktu yang wajar untuk dataset dan kompleksitas model seperti ini. Secara keseluruhan, model dapat dianggap sudah dilatih dan siap untuk prediksi pada data baru.Grafik dari pelatihan model dapat dilihat pada Gambar 5.
-
-![download (4)](https://user-images.githubusercontent.com/66835763/215036781-b634e68a-2ee5-4219-a694-c6715e009e6e.jpg)
-###### Gambar 5, Grafik Training Loss dan RMSE
-
 Berikut merupakan testing secara acak pada user tertentu, dapat dilihat bahwa hasil rekomendasi dari anime tersebut terbilang baik karena genre dari anime yang direkomendasikan masih serupa.
 ```
 Showing recommendations for user: 58507
@@ -153,6 +145,13 @@ Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare : Action, Comedy, Historical
 Gintama&#039;: Enchousen : Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen
 Gintama : Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen
 ```
+
+## Evaluation
+
+Model tersebut berperforma baik dan *loss* serta *root mean squared error*-nya menurun pada setiap 'epoch'. *Loss* validasi dan *root mean squared error* juga menurun, yang menunjukkan bahwa model tidak mengalami *overfitting*. Model mampu mencapai *root mean squared error* validasi sekitar 0,1374 setelah 17-18 'epoch'. Hasil tersebut termasuk ke dalam kondisi yang baik untuk model sistem rekomendasi. Waktu pelatihan untuk setiap 'epoch' sekitar 40 detik, yang merupakan waktu yang wajar untuk dataset dan kompleksitas model seperti ini. Secara keseluruhan, model dapat dianggap sudah dilatih dan siap untuk prediksi pada data baru.Grafik dari pelatihan model dapat dilihat pada Gambar 5.
+
+![download (4)](https://user-images.githubusercontent.com/66835763/215036781-b634e68a-2ee5-4219-a694-c6715e009e6e.jpg)
+###### Gambar 5, Grafik Training Loss dan RMSE
 
 ## Kesimpulan
 
